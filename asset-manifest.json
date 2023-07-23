@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tus-valores/static/css/main.8ba6d3a7.css",
-    "main.js": "/tus-valores/static/js/main.78f3d8e6.js",
-    "static/js/787.29f0d873.chunk.js": "/tus-valores/static/js/787.29f0d873.chunk.js",
-    "index.html": "/tus-valores/index.html",
-    "main.8ba6d3a7.css.map": "/tus-valores/static/css/main.8ba6d3a7.css.map",
-    "main.78f3d8e6.js.map": "/tus-valores/static/js/main.78f3d8e6.js.map",
-    "787.29f0d873.chunk.js.map": "/tus-valores/static/js/787.29f0d873.chunk.js.map"
+    "main.css": "/your-values/static/css/main.8ba6d3a7.css",
+    "main.js": "/your-values/static/js/main.ac87c533.js",
+    "static/js/787.29f0d873.chunk.js": "/your-values/static/js/787.29f0d873.chunk.js",
+    "index.html": "/your-values/index.html",
+    "main.8ba6d3a7.css.map": "/your-values/static/css/main.8ba6d3a7.css.map",
+    "main.ac87c533.js.map": "/your-values/static/js/main.ac87c533.js.map",
+    "787.29f0d873.chunk.js.map": "/your-values/static/js/787.29f0d873.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8ba6d3a7.css",
-    "static/js/main.78f3d8e6.js"
+    "static/js/main.ac87c533.js"
   ]
 }
