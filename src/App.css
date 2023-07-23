@@ -1,37 +1,13 @@
-.App {
-  text-align: center;
+
+.container {
+	margin: 5px 100px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-
 
 .card--value {
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding: 20px;
-  border: 1px solid black;
   margin: 10px;
   border-radius: 20px;
   gap: 15px;
@@ -40,9 +16,154 @@
 
 .values--container {
   display: flex;
+  margin-bottom: 20px;
 }
 
 
 .card--type {
   font-size: 10px;
+}
+
+
+.card--value {
+	margin: 10px;
+	/* width: 300px;
+	height: 490px; */
+	text-align: center;
+	border-radius: 3px;
+	-webkit-transition: 200ms ease-in-out;
+	-o-transition: 200ms ease-in-out;
+	transition: 200ms ease-in-out;
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+.card--value:hover {
+	margin-bottom: -10px;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+.card--value h1 {
+	color: #fff;
+	padding: 30px;
+	margin-top: 100px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 25px;
+	background: rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+.date h4 {
+	color: #fff;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 3px;
+	text-shadow: 0 0 3px rgba(0,0,0,0.9);
+}
+.poster {
+	width: 130px;
+	height:130px;
+	margin: 120px auto;
+	position: relative;
+	border-radius: 100px;
+}
+
+.poster h4 {
+	top: 16px;
+	color: #fff;
+	position: relative;
+	font-size: 80px;
+	text-align: center;
+	font-weight: 100;
+}
+
+
+.card--new-value {
+	margin: 10px;
+	width: 300px;
+	height: auto;
+	text-align: center;
+	border-radius: 3px;
+	-webkit-transition: 200ms ease-in-out;
+	-o-transition: 200ms ease-in-out;
+	transition: 200ms ease-in-out;
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.card--new-value:hover {
+	/* margin-bottom: -10px; */
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+.card--new-value h1 {
+	color: #fff;
+	padding: 30px;
+	margin-top: 100px;
+	text-align: center;
+	font-weight: 100;
+	font-size: 25px;
+	background: rgba(0,0,0,0.8);
+	-webkit-box-shadow: 0 0 30px rgba(0,0,0,0.7);
+	        box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+.card--new-value {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  gap: 15px;
+}
+
+
+.values--count {
+	padding: 10px;
+	margin: 10px;
+	width: 50px;
+	height: auto;
+	text-align: center;
+	border-radius: 3px;
+	-webkit-transition: 200ms ease-in-out;
+	-o-transition: 200ms ease-in-out;
+	transition: 200ms ease-in-out;
+	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+
+/* .one {
+	background: url('https://source.unsplash.com/900x920');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+} */
+
+.button-info {
+  background-color: hsl(214, 79%, 65%);
+  padding: 0.75rem 1.25rem;
+  color: white;
+  border: 1px solid hsl(214, 79%, 65%);
+  border-radius: 4px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button-warning {
+	background-color: hsl(43, 100%, 66%);
+  padding: 0.75rem 1.25rem;
+  color: white;
+  border: 1px solid hsl(43, 100%, 66%);
+  border-radius: 4px;
+  white-space: nowrap;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.resume--values {
+	display: flex;
 }
